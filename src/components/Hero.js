@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/Hero.css'
-import Dev from '../assets/Dev.avif'
+import Logo from '../assets/logo.jpg'
 
 const Hero = () => {
   return (
     <div className='hero'>
         <div className='mask'>
-            <img className='intro-img' src={Dev} alt='dev' />
+            <img className='intro-img' src={Logo} alt='Kitchen' />
         </div>
         <div className='content'>
-            <p>Hello World, I'M Austin A</p>
-            <h1>Full-Stack Developer</h1>
+            <p>We are Otis Construction</p>
+            <h1>We specialize in full home remodels. No job is too small.</h1>
             <div>
                 <Link to='/Project' className='btn'>Projects</Link>
                 <Link to='/Contact' className='btn btn-light'>Contact</Link>

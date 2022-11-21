@@ -22,7 +22,7 @@
     padding: 0 1rem;
 }
 .nav-menu li :hover {
-    color: purple;
+    color: rgb(21, 177, 255);
     transition: 0.3s;
 }
 

@@ -21,12 +21,16 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .hero {
     height: 100%;
     width: 100%;
+}
+
+.hero p {
+    color: #fff;
 }
 
 .hero .content {
@@ -38,12 +42,13 @@
 }
 
 .hero .content h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     padding: 0.7rem 0 2rem;
+    color: #fff;
 }
 
 .hero .content p {
-  font-size: 1.4rem;
+  font-size: 4rem;
   font-weight: 200;
   text-transform: uppercase;
 }

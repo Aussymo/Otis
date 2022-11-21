@@ -1,6 +1,6 @@
 import React from "react"
 import "../Styles/Hero.css"
-import projects from "../assets/projects.avif"
+import Kitchen2 from '../assets/kitchen2.jpg'
 import Work from "../components/Work"
 
 const Project = () => {
@@ -8,11 +8,11 @@ const Project = () => {
         <div>
             <div className="hero">
                 <div className="mask">
-                    <img className="intro-img" src={projects} alt="projects" />
+                    <img className="intro-img" src={Kitchen2} alt="projects" />
                 </div>
                 <div className="content">
-                    <h1>My Projects</h1>
-                    <p>Some of my work</p>
+                    <h1>Our Projects.</h1>
+                    <p>Making dreams a reality</p>
                 </div>
             </div>
             <Work />
