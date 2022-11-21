@@ -14,9 +14,6 @@ const Footer = () => {
                 <div className='phone'>
                     <h4><FaPhone size={20} style={{color: '#fff', marginRight: '2rem'}} /> (385)519-2574</h4>
                 </div>
-                <div className='email'>
-                    <h4><FaMailBulk size={20} style={{color: '#fff', marginRight: '2rem'}} /> isaacadams750@gmail.com</h4>
-                </div>
             </div>
             <div className='right'>
                 {/* <div className='social'>
